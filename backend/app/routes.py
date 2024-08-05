@@ -10,3 +10,4 @@ def home():
 @app.route('/about.html')
 def about():
     return render_template("about.html")
+ 
