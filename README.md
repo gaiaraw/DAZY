@@ -10,3 +10,4 @@ dans le projet frontend/frontend :
 - router = c'est les routes pour les fichiers .vue
 - App.vue = equivalent de base.html ?
 - main.js = equivalent de __init__.py + run.py ?
+
