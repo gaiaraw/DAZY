@@ -1,13 +1,12 @@
 <script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
+const props = defineProps(['testzzzzzzzzzz']);
+
 </script>
 
 <template>
+
+  <p>{{ props.testzzzzzzzzzz }}</p>
+  
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>

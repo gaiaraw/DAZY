@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import dazy from '../components/Dazy.vue'
+import HelloWorld from '../components/HelloWorld.vue'
+import Dazy from '../components/Dazy.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +8,12 @@ const router = createRouter({
     {
       path : '/dazy',
       name : 'dazy',
-      component : dazy,
+      component : Dazy,
+    },
+    {
+      path : '/hello',
+      name : 'hello',
+      component : HelloWorld,
     }
   ]
 })
