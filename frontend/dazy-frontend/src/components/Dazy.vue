@@ -5,7 +5,7 @@
         </div>
         <div>
             <router-link to="/new">
-                <img id="dazy" src="@/assets/DAZ_LOGO_FLEUR.svg" alt="dazy" title="dazy">
+                <img id="dazy" src="@/assets/daz.svg" alt="dazy" title="dazy">
             </router-link>
             
         </div>
@@ -23,9 +23,8 @@ const props = defineProps(['test']);
     transition: filter 0.5s ease;
 }
 #dazy:hover {
-    transform: scale(1.15); /* Agrandit légèrement l'image */
-    filter: brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(1800%) hue-rotate(250deg) brightness(100%) contrast(100%);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre */
-}
+            transform: scale(1.15); /* Agrandit légèrement l'image */
+            filter: drop-shadow(10px 10px 10px rgb(255, 242, 0)); /* Ombre jaune */
+        }
 
 </style>
