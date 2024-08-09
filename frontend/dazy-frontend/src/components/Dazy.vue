@@ -1,19 +1,16 @@
 <template>
-        <div>
-            <p>salut</p>
-            <p>{{ props.test.truc }}</p>
-        </div>
-        <div>
-            <router-link to="/new">
-                <img id="dazy" src="@/assets/daz.svg" alt="dazy" title="dazy">
-            </router-link>
-            
-        </div>
+
+    <div>
+        <router-link to="/new">
+            <img id="dazy" src="@/assets/daz.svg" alt="dazy" title="dazy">
+        </router-link>
+        
+    </div>
+        
 </template>
 
 <script setup>
 
-const props = defineProps(['test']);
 
 </script> 
 

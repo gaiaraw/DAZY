@@ -1,9 +1,7 @@
 <!-- tempate html -->
 <template>
+<RouterView/>
 
-  <RouterView :test="testA"/>
-
-  <input type="text" v-model="testA.truc" v-on:select="display">
 
 </template>
 
@@ -11,16 +9,11 @@
 
 <script setup>
 
-import { reactive, ref } from 'vue';
 import { RouterView } from 'vue-router'
+import Dazy from './components/Dazy.vue';
+import NewD from './components/NewD.vue';
 
-const testA = reactive({
-truc : "bzttttt"
-});
 
-function display() {
-  console.log(testA.truc)
-}
 
 </script>
 
